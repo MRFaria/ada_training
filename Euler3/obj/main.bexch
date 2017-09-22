@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\edisoft\Documents\AdaProjects\Euler3\default.gpr
+20170922133602
+[BOUND OBJECT FILES]
+C:\Users\edisoft\Documents\AdaProjects\Euler3\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\edisoft\Documents\AdaProjects\Euler3\obj\
+-LC:\Users\edisoft\Documents\AdaProjects\Euler3\obj\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
