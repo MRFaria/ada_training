@@ -1,0 +1,83 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -gnat12
+A -g
+A -gnatQ
+A -gnateE
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U stars%b		stars.adb		16bae607 NE OO PK
+W display%s		display.ads		display.ali
+W display.basic%s	display-basic.adb	display-basic.ali
+
+U stars%s		stars.ads		9d6adb51 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W display%s		display.ads		display.ali
+W display.basic%s	display-basic.adb	display-basic.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-numeri.ads		20170516105950 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20170516105950 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D display.ads		20130220140210 3f70eaf9 display%s
+D display-basic.ads	20130907161134 08808d21 display.basic%s
+D stars.ads		20170922112232 a9728195 stars%s
+D stars.adb		20170922112138 8838004a stars%b
+D system.ads		20170516105954 32a08138 system%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+X 1 ada.ads
+16K9*Ada 20e8 8|3r6 3r45
+X 2 a-numeri.ads
+16K13*Numerics 32e17 8|3r10 3r49
+X 3 a-nuelfu.ads
+18K22*Elementary_Functions[4|39] 8|3w19 3r58
+X 4 a-ngelfu.ads
+82V13*Sin{float} 9|15s35[3|18]
+90V13*Cos{float} 9|12s35[3|18]
+X 6 display.ads
+20K9*Display 69e12 8|1w6 1r25 2r6 2r25 9|1w6 1r25 2r6 2r25
+22E9*Color_Type 22e78 8|20r22 9|20r22
+X 7 display-basic.ads
+20K17*Basic 181e18 8|2w14 2r33 9|2w14 2r33
+22I9*Shape_Id<integer> 8|13r22
+29U14*Set_X 9|10s7
+33V13*Get_X{float} 9|12s10
+36U14*Set_Y 9|13s7
+40V13*Get_Y{float} 9|15s10
+53V13*New_Circle{22I9} 9|28s30
+X 8 stars.ads
+6K9*Stars 26l5 26e10 9|4b14 36l5 36t10
+8I9*Star_Index<integer> 14r22 14r36 16r30 22r22 9|22r22
+9R9*Star 15e14 16r54 17r45 17r60 24r22 9|6r45 6r60 24r22 26r16
+10f7*Speed{float} 9|8r51 29m14
+11f7*Distance{float} 9|12r67 15r67 32m14
+12f7*Angle{float} 9|8m16 8r34 12r49 15r49 30m14
+13i7*Graphic{7|22I9} 9|11m19 12r24 14m19 15r24 28m14
+14i7*Turns_Around{8I9} 9|31m14
+16A9*Star_Array(9R9)<8I9>
+17U14*Move_Around 17=27 17>51 9|6b14 16l8 16t19
+17r27 The_Star{9R9} 9|6b27 8m7 8r25 8r42 11m10 11r10 12r40 12r58 14m10 14r10
+. 15r40 15r58
+17r51 Around{9R9} 9|6b51 12r17 15r17
+18V13*Create_Star{9R9} 19>7 20>7 21>7 22>7 23>7 9|18b13 35l8 35t19
+19f7 Size{float} 9|19b7 28r52
+20e7 Color{6|22E9} 9|20b7 28r58
+21f7 Speed{float} 9|21b7 29r30
+22i7 Turns_Around{8I9} 9|22b7 31r30
+23f7 Distance{float} 9|23b7 32r30
+X 9 stars.adb
+26r7 Result{8|9R9} 28m7 29m7 30m7 31m7 32m7 34r14
+

@@ -14,16 +14,18 @@ RV NO_DELAY
 RV NO_FIXED_POINT
 RV NO_FLOATING_POINT
 RV NO_RELATIVE_DELAY
+RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		0bab5905 NE OO SU
+U main%b		main.adb		e5f576dd NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
 W display%s		display.ads		display.ali
 W display.basic%s	display-basic.adb	display-basic.ali
+W stars%s		stars.adb		stars.ali
 
 D ada.ads		20170516105950 76789da1 ada%s
 D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
@@ -34,7 +36,8 @@ D a-ngelfu.ads		20170516105954 7e738940 ada.numerics.generic_elementary_function
 D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
 D display.ads		20130220140210 3f70eaf9 display%s
 D display-basic.ads	20130907161134 08808d21 display.basic%s
-D main.adb		20170921171254 3fb303c1 main%b
+D main.adb		20170922112346 789fad8c main%b
+D stars.ads		20170922112232 a9728195 stars%s
 D system.ads		20170516105954 32a08138 system%s
 D s-exctab.ads		20170516105954 54135002 system.exception_table%s
 D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
@@ -44,39 +47,30 @@ X 4 a-numeri.ads
 16K13*Numerics 32e17 10|1r10 1r49
 X 5 a-nuelfu.ads
 18K22*Elementary_Functions[6|39] 10|1w19 1r58
-X 6 a-ngelfu.ads
-82V13*Sin{float} 10|59s13[5|18]
-90V13*Cos{float} 10|55s13[5|18]
 X 8 display.ads
-20K9*Display 69e12 10|3w6 3r25 4r6 4r25
-22n31*Blue{22E9} 10|27r65
-22n50*Red{22E9} 10|41r65
-22n64*Yellow{22E9} 10|20r66
-22n72*White{22E9} 10|34r65
+20K9*Display 69e12 10|2w6 2r25 3r6 3r25
+22n31*Blue{22E9} 10|18r43
+22n44*Cyan{22E9} 10|21r43
+22n50*Red{22E9} 10|20r43
+22n64*Yellow{22E9} 10|17r44
+22n72*White{22E9} 10|19r43
 X 9 display-basic.ads
-20K17*Basic 181e18 10|4w14 4r33
-22I9*Shape_Id<integer> 10|13r15
-29U14*Set_X 10|52s10
-33V13*Get_X{float} 10|54s13
-36U14*Set_Y 10|56s10
-40V13*Get_Y{float} 10|58s13
-53V13*New_Circle{22I9} 10|20s38 27s38 34s38 41s38
+20K17*Basic 181e18 10|3w14 3r33
 X 10 main.adb
-6U11*Main 6b11 66l5 66t9
-7E9 StarName 7e50 14r22 17r18 62r16
-7n22 Sun{7E9} 20r11 21r11 22r11 23r11 24r11 24r38 31r38
-7n27 Earth{7E9} 27r11 28r11 29r11 30r11 31r11 38r38 45r38 51r16
-7n34 Moon{7E9} 34r11 35r11 36r11 37r11 38r11
-7n40 Satellite{7E9} 41r11 42r11 43r11 44r11 45r11 51r25
-9R9 Star 15e14 17r31
-10f7 Speed{float} 21m16 28m18 35m17 42m22 63r57
-11f7 Distance{float} 22m16 29m18 36m17 43m22 55r47 59r47
-12f7 Angle{float} 23m16 30m18 37m17 44m22 55r28 59r28 63m20 63r39
-13i7 Shape{9|22I9} 20m16 27m18 34m17 41m22 53m23 54r50 57m23 58r51
-14e7 PreviousBody{7E9} 24m16 31m18 38m17 45m22 54r36 58r37
-17a4 Stars(9R9) 20m4 21m4 22m4 23m4 24m4 27m4 28m4 29m4 30m4 31m4 34m4 35m4
-. 36m4 37m4 38m4 41m4 42m4 43m4 44m4 45m4 53m13 53r13 54r19 54r26 55r18 55r37
-. 57m13 57r13 58r20 58r27 59r18 59r37 63m10 63r29 63r47
-51e11 J{7E9} 53r20 54r33 55r25 55r44 57r20 58r34 59r25 59r44
-62e11 J{7E9} 63r17 63r36 63r54
+7U11*Main 7b11 31l5 31t9
+8a4 Stars{11|16A9} 17m4 18m4 19m4 20m4 21m4 24r16 25r13 25r39 26m26 26r26
+. 26r37 26r44
+10i4 Sun{11|8I9} 17r11 17r57 18r56 21r55
+11i4 Earth{11|8I9} 18r11 19r57 20r55
+12i4 Moon{11|8I9} 19r11
+13i4 Satellite{11|8I9} 20r11
+14i4 Comet{11|8I9} 21r11
+24i11 J<integer> 25r20 26r33 26r51
+X 11 stars.ads
+6K9*Stars 10|4w6 4r17 11|26e10
+8I9*Star_Index<integer> 10|10r16 11r16 12r16 13r16 14r16
+14i7*Turns_Around{8I9} 10|25r23 26r54
+16A9*Star_Array(9R9)<8I9> 10|8r12
+17U14*Move_Around 10|26s13
+18V13*Create_Star{9R9} 10|17s25 18s25 19s25 20s25 21s25
 
