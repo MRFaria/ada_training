@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+E:\SourceAdaCore\labs-Stars-03_Array_Types\stars.gpr
+20160929101142
+C:\GNAT\2017\share\gpr\gnat_sdl.gpr
+20170921104230
+C:\GNAT\2017\share\gpr\game_support.gpr
+20170921104234
+[BOUND OBJECT FILES]
+E:\SourceAdaCore\labs-Stars-03_Array_Types\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LE:\SourceAdaCore\labs-Stars-03_Array_Types\obj\
+-LE:\SourceAdaCore\labs-Stars-03_Array_Types\obj\
+-LC:\GNAT\2017\lib\game_support\
+-LC:\GNAT\2017\lib\gnat_sdl\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnarl.a
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
